@@ -32,3 +32,8 @@ Python - Necessário instalar o python no computador para rodar os scripts do pr
 Pip Install - Comando para instalar as dependências necessárias para rodar o projeto. O projeto contém o arquivo requirements.txt com todas as dependências. Basta rodar o seguinte comando: pip install requirements.txt
 
 
+## Links
+
+Vídeo demonstrativo - https://drive.google.com/file/d/1UMnMdp78D5LE142j48t4v94sS0qlwREK/view?usp=sharing
+
+
