@@ -1,4 +1,8 @@
-# Redes_Projeto
+# UDP
+Luigi Enrico Moura Bongiolo
+Daniel Muniz de Carvalho
+Gabriel Abreu Alves da Silva e Silva
+Victor Pedro Martins Ornelas
 
 ## **1- Motivação / Objetivo**
 
