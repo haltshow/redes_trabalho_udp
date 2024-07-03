@@ -9,7 +9,7 @@ Victor Pedro Martins Ornelas
 
 ## **1- Motivação / Objetivo**
 
-Optamos por usar o protocolo UDP para o streaming de tela ao vivo com o objetivo de explorar suas características específicas que o tornam ideal para aplicações como transmissão de mídia em tempo real. A escolha do UDP em vez do TCP se deve à sua menor sobrecarga de controle de fluxo e latência reduzida, o que é crucial para garantir uma transmissão contínua e rápida de dados. Nosso foco é demonstrar como o UDP facilita uma comunicação direta e eficiente entre clientes e servidor, especialmente importante quando a velocidade é prioritária em relação à precisão na entrega de cada pacote.
+Implementar uma aplicação de streaming de vídeo utilizando o UDP. A escolha do UDP em vez do TCP se deve à sua menor sobrecarga de controle de fluxo e latência reduzida, o que é crucial para garantir uma transmissão contínua e rápida de dados.
 
 
 ## **2- Descrição**
@@ -33,7 +33,8 @@ O uso do UDP para streaming de vídeo é ideal em situações onde a latência p
 
 
 ## **4- Pré-requisitos de Uso**
-Python - Necessário instalar o python no computador para rodar os scripts do projeto. Ex: python server.py, python streamer.py, python cliente.py
+Python - Necessário instalar o python no computador para rodar os scripts do projeto.
+Para iniciar a aplicação rode os comandos nessa sequência: python server.py, python streamer.py, python cliente.py
 
 
 Pip Install - Comando para instalar as dependências necessárias para rodar o projeto. O projeto contém o arquivo requirements.txt com todas as dependências. Basta rodar o seguinte comando: pip install requirements.txt
