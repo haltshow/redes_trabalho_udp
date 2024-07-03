@@ -34,6 +34,7 @@ O uso do UDP para streaming de vídeo é ideal em situações onde a latência p
 
 ## **4- Pré-requisitos de Uso**
 Python - Necessário instalar o python no computador para rodar os scripts do projeto.
+
 Para iniciar a aplicação rode os comandos nessa sequência: python server.py, python streamer.py, python cliente.py
 
 
