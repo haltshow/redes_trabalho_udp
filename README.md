@@ -19,15 +19,17 @@ O cliente streamer irá iniciar uma transmissão da sua tela em tempo real. Os o
 
 
 Captura de Tela: O usuário iniciará um servidor que captura constantemente a sua tela do desktop.
+
 Transmissão via UDP: Os pacotes de vídeo são enviados através do protocolo UDP.
+
 Recepção pelos Clientes: Vários clientes podem se conectar ao servidor simultaneamente e receber os pacotes de vídeo. Cada cliente decodifica e exibe os quadros conforme eles chegam, permitindo que todos visualizem a mesma tela em tempo real.
 
 Essa abordagem de streaming ao vivo ilustra como o protocolo UDP pode ser eficiente para aplicações em tempo real, permitindo que vários usuários visualizem simultaneamente a tela compartilhada por um único servidor, com um foco maior na velocidade de transmissão do que na garantia de entrega absoluta de cada pacote.
 
 ## **3- Objetivo didático**
+
 Protocolo UDP: O Protocolo UDP é um dos principais protocolos de comunicação na Internet. Diferentemente do TCP, que garante a entrega de pacotes e a ordem correta deles, o UDP é um protocolo "sem conexão" e "não confiável", ou seja, ele não garante que os pacotes chegarão ao destino ou que chegarão na ordem correta. Esse comportamento é ideal para aplicações que podem tolerar perda de dados e que requerem alta performance, como o streaming de vídeo em tempo real.
 O uso do UDP para streaming de vídeo é ideal em situações onde a latência precisa ser minimizada e a perda ocasional de pacotes não é crítica.
-
 
 
 
