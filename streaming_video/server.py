@@ -10,7 +10,6 @@ VIDEO_PATH = 'video.mp4'
 
 MAX_DATAGRAM_SIZE = 65507
 
-# Criação do socket UDP
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 server_socket.bind((SERVER_ADDRESS, SERVER_PORT))
 

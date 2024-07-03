@@ -7,7 +7,7 @@ import struct
 SERVER_ADDRESS = 'localhost'
 SERVER_PORT = 12345
 MAX_DATAGRAM_SIZE = 65507
-HEADER_SIZE = struct.calcsize("I")  # Tamanho do cabeçalho para controle de fragmentação (4 bytes)
+HEADER_SIZE = struct.calcsize("I")
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 server_socket.bind((SERVER_ADDRESS, SERVER_PORT))
@@ -18,7 +18,7 @@ streamer_address = None
 def fragment_frame(frame_data):
     fragments = []
     for i in range(0, len(frame_data), MAX_DATAGRAM_SIZE - HEADER_SIZE):
-        header = struct.pack("I", i)  # Header indicando o offset do fragmento
+        header = struct.pack("I", i)
         fragment = header + frame_data[i:i + (MAX_DATAGRAM_SIZE - HEADER_SIZE)]
         fragments.append(fragment)
     return fragments
